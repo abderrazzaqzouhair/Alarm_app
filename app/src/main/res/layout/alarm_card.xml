@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:backgroundTint="#1E1E2E"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/alarmTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="8:30 AM"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="S"
+                android:textColor="#F0F757"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="M"
+                android:textColor="#F0F757"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="T"
+                android:textColor="#F0F757"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/wed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="W"
+                android:textColor="#F0F757"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/thu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="T"
+                android:textColor="#F0F757"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="F"
+                android:textColor="#F0F757"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="S"
+                android:textColor="#F0F757"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/switchv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:checked="false"
+            android:thumbTint="#FFFFFF"
+            android:trackTint="@color/switch_track_color"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
