@@ -22,6 +22,16 @@
 - **MediaPlayer**: For playing the alarm sound when triggered.
 - **Figma**: For designing the user interface.
 
+## Display
+
+
+
+
+https://github.com/user-attachments/assets/7345975f-f2b8-4a00-8e65-e2e8df37fb65
+
+
+
+
 ## Installation
 
 1. Clone this repository:
